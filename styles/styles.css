@@ -35,6 +35,11 @@ p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 img,
 picture {
   display: block;
@@ -124,6 +129,19 @@ picture {
 
 .stat__text :last-child > h2 {
   text-transform: uppercase;
+}
+
+.attribution {
+  color: var(--main-paragraph);
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--main-heading);
+}
+
+.attribution a:hover {
+  font-weight: 700;
 }
 
 /* ===================
