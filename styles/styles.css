@@ -90,14 +90,14 @@ picture {
   margin-top: 0.5em;
 }
 
-/* ##### typography ##### */
+/* ===================
+      typography
+   ===================  */
 
 .heading {
   color: var(--main-heading);
   font-weight: 700;
   font-size: 1.75rem;
-  /* margin-top: 0.8rem;
-  margin-bottom: 1rem; */
 }
 
 .sub-heading {
@@ -126,7 +126,9 @@ picture {
   text-transform: uppercase;
 }
 
-/* ##### media queries ###### */
+/* ===================
+      media queries
+   ===================  */
 
 @media screen and (min-width: 768px) {
   .card {
@@ -141,7 +143,7 @@ picture {
   .grid-left {
     grid-area: left;
     grid-row: 1 / 3;
-    gap: 5em;
+    gap: 2.5rem;
   }
 
   .grid-left > * {
@@ -159,6 +161,7 @@ picture {
 
   .main__text {
     text-align: left;
+    margin-top: 1rem;
   }
 
   .main-heading {
@@ -168,7 +171,8 @@ picture {
   }
 
   .paragraph {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    width: 85%;
   }
 
   .stat {
@@ -178,6 +182,8 @@ picture {
   .stat__text {
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 5em;
+    text-align: left;
   }
 
   .sub-heading {
@@ -185,7 +191,6 @@ picture {
   }
 
   h2 {
-    margin-bottom: 0.5em;
-    text-align: left;
+    margin-bottom: 0.3em;
   }
 }
